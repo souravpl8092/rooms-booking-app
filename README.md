@@ -12,13 +12,18 @@ The **Rooms Booking App** is a full-stack web application that allows users to s
 - Responsive UI for a smooth user experience
 
 ## Tech Stack
-- **Frontend:** Next.js, TypeScript, Redux, Tailwind CSS
-- **Backend:** Node.js, Express.js, MongoDB
+- **Frontend:** React.js, TypeScript, Redux, Tailwind CSS
+- **Backend-as-a-Service:** Appwrite
 - **Authentication:** JWT-based authentication
 - **State Management:** Redux
 - **Styling:** Tailwind CSS
 - **Database:** MongoDB with Mongoose ORM
 
+## Appwrite Backend
+For this project, I have used the **Appwrite** platform to handle our backend requirements. Appwrite is an open-source Backend-as-a-Service (BaaS) that provides a robust set of APIs for common backend functionalities.
+- **Authentication:** Implemented secure user authentication using Appwrite's Auth API.
+- **Database:** Utilized Appwrite's database service for storing and managing application data.
+- **Storage:** Employed Appwrite's storage solution for handling image file uploads.
 ## Installation
 
 1. Clone the repository:
@@ -61,4 +66,5 @@ For any issues or queries, feel free to reach out:
 
 ---
 ### Happy Coding! 🚀
+
 
