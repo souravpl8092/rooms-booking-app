@@ -1,49 +1,64 @@
-# Room Booking
+# Rooms Booking App
 
-Meeting room booking application for businesses.
-This is a [Next.js](https://nextjs.org/) project:
+## Overview
+The **Rooms Booking App** is a full-stack web application that allows users to search, book, and manage room reservations. It provides an intuitive UI for customers to browse available rooms and an admin dashboard for managing bookings.
 
-1. Set up a new Next.js project using `create-next-app`.
-2. Configured Tailwind CSS for styling.
-3. Implemented page routing using the file-based system.
-4. Created reusable components for consistent UI elements.
-5. Utilized Next.js's actions for data fetching.
-6. Optimized images and assets using Next.js's built-in features.
+## Features
+- User authentication (sign-up, login, logout)
+- Browse and filter available rooms
+- Book rooms and manage reservations
+- Payment integration for seamless transactions
+- Admin dashboard to manage room availability and bookings
+- Responsive UI for a smooth user experience
 
-### Getting Started
+## Tech Stack
+- **Frontend:** Next.js, TypeScript, Redux, Tailwind CSS
+- **Backend:** Node.js, Express.js, MongoDB
+- **Authentication:** JWT-based authentication
+- **State Management:** Redux
+- **Styling:** Tailwind CSS
+- **Database:** MongoDB with Mongoose ORM
 
-For run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/souravpl8092/rooms-booking-app.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
+   ```sh
+   cd rooms-booking-app
+   ```
 
-### Features
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-- User registration and login forms.
-- Add meeting rooms form.
-- Room details page and booking form.
-- Room list manage.
-- Bookings list manage.
+4. Set up the environment variables:
+   - Create a `.env` file in the root directory
+   - Add the required variables such as database connection string, JWT secret, and API keys
 
-### Appwrite backend
+5. Start the development server:
+   ```sh
+   npm start
+   ```
 
-For this project, I have used the [Appwrite](https://appwrite.io/) platform to handle our backend requirements. Appwrite is an open-source Backend-as-a-Service (BaaS) that provides a robust set of APIs for common backend functionalities.
+6. For backend setup:
+   ```sh
+   cd backend
+   npm install
+   npm run dev
+   ```
 
-1. **Authentication**: Implemented secure user authentication using Appwrite's Auth API.
-2. **Database**: Utilized Appwrite's database service for storing and managing application data.
-3. **Storage**: Employed Appwrite's storage solution for handling image file uploads.
+## License
+This project is licensed under the MIT License.
 
-### Deployed on Vercel
+## Contact
+For any issues or queries, feel free to reach out:
+- **GitHub:** [souravpl8092](https://github.com/souravpl8092)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+### Happy Coding! 🚀
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
